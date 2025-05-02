@@ -210,5 +210,10 @@ public class HomController {
 	public String editimage() {
 		return "editimage";
 	}
-	
+
+	@GetMapping("/")
+public String root() {
+    return "index"; // or replace "index" with any actual template/view name you have
+}
+
 }
